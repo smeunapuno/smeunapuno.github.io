@@ -500,3 +500,7 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 .banner-light .shade{background:linear-gradient(180deg,rgba(5,9,14,.45) 0,rgba(5,9,14,0) calc(var(--navh) + 60px)),linear-gradient(90deg,rgba(5,9,14,.72),rgba(5,9,14,.45) 55%,rgba(5,9,14,.12))}
 .ev .ev-acts{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.3rem}
 .ev .ev-ins{padding:.55rem 1rem;font-size:.82rem}
+
+/* tarjeta "Próximamente" con silueta */
+.ev .img.teaser{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 58%,#3aa6e6 0%,#11507e 34%,#081a2a 70%,#050d14 100%)}
+.ev .img.teaser img{width:auto;height:82%;max-width:80%;object-fit:contain;filter:drop-shadow(0 0 22px rgba(120,200,245,.55))}
