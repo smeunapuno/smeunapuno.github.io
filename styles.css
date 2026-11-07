@@ -499,3 +499,4 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 @media (max-width:640px){.banner{height:calc(280px + var(--navh))}}
 .banner-light .shade{background:linear-gradient(180deg,rgba(5,9,14,.45) 0,rgba(5,9,14,0) calc(var(--navh) + 60px)),linear-gradient(90deg,rgba(5,9,14,.72),rgba(5,9,14,.45) 55%,rgba(5,9,14,.12))}
 .ev .ev-acts{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.3rem}
+.ev .ev-ins{padding:.55rem 1rem;font-size:.82rem}
