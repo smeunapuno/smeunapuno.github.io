@@ -21,6 +21,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 | `styles.css` | Todo el estilo, incluida la portada animada (al final) |
 | `main.js` | Tema claro/oscuro, menú de celular, diapositivas, carruseles, visor de imágenes y portada animada |
 | `img/` | Imágenes en WebP (máximo unos 1200 píxeles de lado, calidad 80) |
+| `IMAGENES PARA LA PAGINA/` | Fotos originales subidas por el usuario (JPG). La web usa las copias en WebP de `img/` |
 | `favicon.ico`, `favicon-*.png`, `apple-touch-icon.png`, `icon-*.png` | Ícono con el logo del chapter |
 | `.nojekyll` | Evita que GitHub Pages procese el sitio con Jekyll |
 
@@ -52,9 +53,8 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 ## Pendientes (a noviembre de 2026)
 
-- 8 espacios para foto por llenar: portada (Puno y el lago Titicaca, grupo del chapter en Arequipa), tarjeta "Beneficios" de Inicio, tarjetas "Sobre nosotros" y "Únete", encabezados de Nosotros, Actividades, Beneficios y Únete, y 2 fotos de Arequipa (ponentes o networking, sorteo de becas).
-- Foto del concurso de perforación con PERFOMIN (ganadores con el banner de SME) sin usar: falta saber nombre, fecha y lugar del evento.
-- Fechas por confirmar: ASIMET Mining Titans y II Encuentro de SME en Cusco.
+- 4 espacios para foto por llenar: tarjeta "Únete" de Inicio, encabezados de Beneficios y Únete, y Arequipa: sorteo de becas.
+- Fechas por confirmar: día exacto de ASIMET Mining Titans (noviembre de 2026) y II Encuentro de SME en Cusco.
 - Confirmar si la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) es del viaje a Arequipa.
 - Las actividades de noviembre (9, 12 y 16) vencen pronto; el I Encuentro de Egresados es el 4 y 5 de diciembre.
 
