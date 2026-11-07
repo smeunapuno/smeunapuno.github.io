@@ -41,7 +41,7 @@ section[id]{scroll-margin-top:96px}
 [data-theme=dark] .more svg{color:var(--lime)}
 
 /* ---------- barra de navegación ---------- */
-.nav{position:sticky;top:0;z-index:60;background:rgba(18,22,27,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{position:sticky;top:0;z-index:60;background:rgba(18,22,27,.97);border-bottom:1px solid rgba(255,255,255,.06)}
 .nav .wrap{display:flex;align-items:center;height:84px;gap:.9rem}
 .brand{display:flex;align-items:center;gap:.9rem;text-decoration:none;min-width:0}
 .brand img{height:46px;width:auto}
@@ -475,8 +475,8 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 /* barra semitransparente sobre portada y encabezados (como smenet.org) */
 :root{--navh:84px}
 @media (max-width:560px){:root{--navh:70px}}
-.nav{background:rgba(14,17,21,.5);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);border-bottom-color:rgba(255,255,255,.08);transition:background .3s}
-.nav.solid,.nav.open{background:rgba(18,22,27,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.nav{background:rgba(14,17,21,.5);border-bottom-color:rgba(255,255,255,.08);transition:background .3s}
+.nav.solid,.nav.open{background:rgba(18,22,27,.97)}
 .hero,.banner{margin-top:calc(var(--navh) * -1)}
 .hero{height:calc(clamp(460px,64vh,600px) + var(--navh))}
 .slide .box{top:calc(50% + var(--navh) / 2)}
