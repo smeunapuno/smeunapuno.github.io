@@ -94,3 +94,10 @@ document.querySelectorAll('.carousel').forEach(function(c){
   go.addEventListener('click',enter);
   document.addEventListener('keydown',function(e){ if(intro.classList.contains('ready') && (e.key==='Enter'||e.key===' '||e.key==='Escape')){ e.preventDefault(); enter(); } });
 })();
+
+/* barra: semitransparente arriba, sólida al bajar */
+(function(){
+  var n=document.querySelector('.nav'); if(!n) return;
+  function u(){ n.classList.toggle('solid', window.scrollY>40); }
+  window.addEventListener('scroll',u,{passive:true}); u();
+})();

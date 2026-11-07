@@ -21,7 +21,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 | `unete.html` | Pasos para formar parte, correo y redes |
 | `styles.css` | Todo el estilo, incluida la portada animada (al final) |
 | `main.js` | Tema claro/oscuro, menú de celular, diapositivas, carruseles, visor de imágenes y portada animada |
-| `img/` | Imágenes en WebP (máximo unos 1200 píxeles de lado, calidad 80) |
+| `img/` | Imágenes en WebP (máximo unos 1200 píxeles de lado, calidad 80). Excepción: las fotos de la portada (`#hero`) van en HD, 1920 píxeles de ancho, calidad 82, con sufijo `-hd` |
 | `IMAGENES PARA LA PAGINA/` | Fotos originales subidas por el usuario (JPG). La web usa las copias en WebP de `img/` |
 | `favicon.ico`, `favicon-*.png`, `apple-touch-icon.png`, `icon-*.png` | Ícono con el logo del chapter |
 | `.nojekyll` | Evita que GitHub Pages procese el sitio con Jekyll |
@@ -30,12 +30,13 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 ## Estilo visual
 
-- Inspirado en smenet.org (sin copiarlo): barra superior negra con enlaces en verde lima, tarjetas blancas con borde superior azul o lima, títulos con serifa, pie de página negro con títulos en lima.
+- Inspirado en smenet.org (sin copiarlo): barra superior oscura semitransparente sobre la portada y los encabezados (se vuelve sólida al bajar, clase `.solid` desde `main.js`), con enlaces en verde lima, tarjetas blancas con borde superior azul o lima, títulos con serifa, pie de página negro con títulos en lima.
 - Tipografías (Google Fonts): **Alegreya** para títulos y botones, **Roboto** para texto.
 - Colores (variables en `:root` y `[data-theme=dark]` de `styles.css`): azul SME `#0089d0`, lima SME `#bed62f`.
 - Identidad propia: **las curvas de nivel del lago Titicaca** (contorno real, datos de Natural Earth). Están definidas una vez por página en `<g id="lk">` y se reutilizan con `<svg viewBox="120 120 760 760"><use href="#lk"/></svg>`. Los colores se controlan con las variables CSS `--tc`, `--ti`, `--to`.
 - Modo claro y oscuro: por defecto sigue la configuración del dispositivo; el botón de la barra guarda la elección en `localStorage` (`sme-theme`).
 - La portada animada del Titicaca solo aparece en `index.html`, una vez por visita (`sessionStorage` `sme-intro`), y se salta si la URL trae un `#ancla`.
+- **Portada (diapositivas de `#hero`): solo paisajes mineros en HD**, con sombras oscuras en los bordes. Nada de fotos pequeñas estiradas.
 - Sin animaciones al hacer scroll ni efectos recargados: el usuario pidió una web "normal", sobria e institucional.
 
 ## Componentes principales (clases)
@@ -54,6 +55,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 ## Pendientes (a noviembre de 2026)
 
+- Portada: falta reemplazar 2 diapositivas por paisajes mineros en HD (hoy: foto del taller de 1200 píxeles y foto de Puno).
 - 3 espacios para foto por llenar: tarjeta "Únete" de Inicio, encabezado de Únete y Arequipa: sorteo de becas.
 - Fechas por confirmar: día exacto de ASIMET Mining Titans (noviembre de 2026) y II Encuentro de SME en Cusco.
 - Confirmar si la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) es del viaje a Arequipa.
