@@ -52,7 +52,8 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 ## Pendientes (a noviembre de 2026)
 
-- 10 espacios para foto por llenar: portada (Puno y el lago Titicaca, grupo del chapter en Arequipa), tarjeta "Beneficios" de Inicio, tarjetas "Sobre nosotros" y "Únete", encabezados de Nosotros, Actividades, Beneficios y Únete, fotos de Arequipa y del voluntariado en el Expotitikaka.
+- 8 espacios para foto por llenar: portada (Puno y el lago Titicaca, grupo del chapter en Arequipa), tarjeta "Beneficios" de Inicio, tarjetas "Sobre nosotros" y "Únete", encabezados de Nosotros, Actividades, Beneficios y Únete, y 2 fotos de Arequipa (ponentes o networking, sorteo de becas).
+- Foto del concurso de perforación con PERFOMIN (ganadores con el banner de SME) sin usar: falta saber nombre, fecha y lugar del evento.
 - Fechas por confirmar: ASIMET Mining Titans y II Encuentro de SME en Cusco.
 - Confirmar si la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) es del viaje a Arequipa.
 - Las actividades de noviembre (9, 12 y 16) vencen pronto; el I Encuentro de Egresados es el 4 y 5 de diciembre.
