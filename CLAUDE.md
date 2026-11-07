@@ -53,7 +53,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 ## Pendientes (a noviembre de 2026)
 
-- 4 espacios para foto por llenar: tarjeta "Únete" de Inicio, encabezados de Beneficios y Únete, y Arequipa: sorteo de becas.
+- 3 espacios para foto por llenar: tarjeta "Únete" de Inicio, encabezado de Únete y Arequipa: sorteo de becas.
 - Fechas por confirmar: día exacto de ASIMET Mining Titans (noviembre de 2026) y II Encuentro de SME en Cusco.
 - Confirmar si la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) es del viaje a Arequipa.
 - Las actividades de noviembre (9, 12 y 16) vencen pronto; el I Encuentro de Egresados es el 4 y 5 de diciembre.
