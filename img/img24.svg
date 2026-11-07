@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="115" fill="#000000"/>
+  <g transform="translate(32, 28) scale(0.88)">
+    <!-- Cyan accent -->
+    <path fill="#25F4EE" d="M398 195a189 189 0 0 1-110-35v143a146 146 0 1 1-126-145v81a67 67 0 1 0 47 64V60l79 0a109 109 0 0 0 1.6 20 110 110 0 0 0 48 72 109 109 0 0 0 60.4 18Z" transform="translate(-7, -4)"/>
+    <!-- Magenta accent -->
+    <path fill="#FE2C55" d="M398 195a189 189 0 0 1-110-35v143a146 146 0 1 1-126-145v81a67 67 0 1 0 47 64V60l79 0a109 109 0 0 0 1.6 20 110 110 0 0 0 48 72 109 109 0 0 0 60.4 18Z" transform="translate(7, 4)"/>
+    <!-- White center note -->
+    <path fill="#FFFFFF" d="M398 195a189 189 0 0 1-110-35v143a146 146 0 1 1-126-145v81a67 67 0 1 0 47 64V60l79 0a109 109 0 0 0 1.6 20 110 110 0 0 0 48 72 109 109 0 0 0 60.4 18Z"/>
+  </g>
+</svg>
