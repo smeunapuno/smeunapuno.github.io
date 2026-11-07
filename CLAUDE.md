@@ -6,6 +6,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - Alojamiento: GitHub Pages, rama `main`, carpeta raíz. Cada push publica en 1 o 2 minutos; los navegadores guardan caché hasta unos 10 minutos (probar con Ctrl + Shift + R o incógnito).
 - No hay proceso de compilación: son archivos HTML, CSS y JS estáticos. Se editan directamente.
 - Idioma de todo el contenido y de los mensajes de commit: español.
+- **Commits sin atribución a Claude:** no agregar líneas `Co-Authored-By` ni `Claude-Session` (ni ninguna otra mención a Claude) en los mensajes de commit ni en pull requests. El usuario pidió que Claude no aparezca como colaborador del repositorio.
 
 ## Archivos
 
