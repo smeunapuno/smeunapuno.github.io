@@ -55,8 +55,8 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 ## Pendientes (a noviembre de 2026)
 
-- Portada: diapositiva 1 = mina a tajo abierto (HD); diapositiva 2 = atardecer sobre un humedal (HD, no es minero; lo pidió el usuario); diapositiva 3 = Puno (HD). Falta al menos un paisaje minero más para reemplazar la de Puno o el atardecer.
-- 3 espacios para foto por llenar: tarjeta "Únete" de Inicio, encabezado de Únete y Arequipa: sorteo de becas.
+- Portada: diapositiva 1 = mina a tajo abierto (HD); diapositiva 2 = maqueta de una operación minera (HD); diapositiva 3 = Puno (HD, no es minero). Falta un paisaje minero en HD para reemplazar la de Puno.
+- 1 espacio para foto por llenar: tarjeta "Únete" de Inicio. El encabezado de Únete usa `img/taller.webp` (solo 1200 píxeles; una foto grupal más grande se vería más nítida).
 - Fechas por confirmar: día exacto de ASIMET Mining Titans (noviembre de 2026) y II Encuentro de SME en Cusco.
 - Confirmar si la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) es del viaje a Arequipa.
 - Las actividades de noviembre (9, 12 y 16) vencen pronto; el I Encuentro de Egresados es el 4 y 5 de diciembre.
