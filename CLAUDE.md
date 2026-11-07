@@ -7,6 +7,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - No hay proceso de compilación: son archivos HTML, CSS y JS estáticos. Se editan directamente.
 - Idioma de todo el contenido y de los mensajes de commit: español.
 - **Commits sin atribución a Claude:** no agregar líneas `Co-Authored-By` ni `Claude-Session` (ni ninguna otra mención a Claude) en los mensajes de commit ni en pull requests. El usuario pidió que Claude no aparezca como colaborador del repositorio.
+- **Autor de los commits:** `Brandon Quispe <brandonquispetapia@gmail.com>` (su cuenta principal de GitHub). Usar `git -c user.name="Brandon Quispe" -c user.email="brandonquispetapia@gmail.com" commit ...` si la configuración del entorno tiene otro autor.
 
 ## Archivos
 
