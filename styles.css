@@ -515,3 +515,9 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 .band-sme .steps li{color:rgba(255,255,255,.85)}
 .band-sme .steps strong{color:#fff}
 .band-sme .figure{box-shadow:0 14px 30px rgba(0,0,0,.3)}
+
+/* crédito del sitio */
+.footer .credit{display:inline-flex;align-items:center;gap:.4rem}
+.footer .credit a{display:inline-flex;color:#8d96a0;opacity:.85;transition:color .2s,opacity .2s}
+.footer .credit a:hover{color:var(--lime);opacity:1}
+.footer .credit svg{width:13px;height:13px}

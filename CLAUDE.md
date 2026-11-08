@@ -26,7 +26,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 | `favicon.ico`, `favicon-*.png`, `apple-touch-icon.png`, `icon-*.png` | Ícono con el logo del chapter |
 | `.nojekyll` | Evita que GitHub Pages procese el sitio con Jekyll |
 
-**Partes repetidas en las 5 páginas:** `<head>`, barra de navegación (`<header class="nav">`), pie de página (`<footer class="footer">`), el SVG oculto con las curvas del Titicaca (`<g id="lk">`) y el visor de imágenes (`#lb`). Si se cambia el menú o el pie, hay que cambiarlo en las 5 páginas.
+**Partes repetidas en las 5 páginas:** `<head>`, barra de navegación (`<header class="nav">`), pie de página (`<footer class="footer">`), el SVG oculto con las curvas del Titicaca (`<g id="lk">`) y el visor de imágenes (`#lb`). Si se cambia el menú o el pie, hay que cambiarlo en las 5 páginas. El pie incluye el crédito "Diseño y desarrollo por: Brandon Quispe Tapia" con un ícono pequeño que enlaza a su LinkedIn (`.footer .credit`); mantenerlo discreto.
 
 ## Estilo visual
 
