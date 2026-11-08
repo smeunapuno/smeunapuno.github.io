@@ -22,7 +22,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 | `styles.css` | Todo el estilo, incluida la portada animada (al final) |
 | `main.js` | Tema claro/oscuro, menú de celular, diapositivas, carruseles, visor de imágenes y portada animada |
 | `img/` | Imágenes en WebP (máximo unos 1200 píxeles de lado, calidad 80). Excepción: las fotos de la portada (`#hero`) van en HD, 1920 píxeles de ancho, calidad 82, con sufijo `-hd` |
-| `IMAGENES PARA LA PAGINA/` | Fotos originales en JPG. La web usa las copias en WebP de `img/` |
+| `originals/` | Fotos originales en JPG. La web usa las copias en WebP de `img/` |
 | `favicon.ico`, `favicon-*.png`, `apple-touch-icon.png`, `icon-*.png` | Ícono con el logo del chapter |
 | `.nojekyll` | Evita que GitHub Pages procese el sitio con Jekyll |
 
