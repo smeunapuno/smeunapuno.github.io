@@ -504,3 +504,24 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 /* tarjeta "Próximamente" con silueta */
 .ev .img.teaser{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 58%,#3aa6e6 0%,#11507e 34%,#081a2a 70%,#050d14 100%)}
 .ev .img.teaser img{width:auto;height:82%;max-width:80%;object-fit:contain;filter:drop-shadow(0 0 22px rgba(120,200,245,.55))}
+
+/* Nosotros */
+.mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+@media (max-width:900px){.mv-grid{grid-template-columns:1fr}}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1.25fr 1fr;gap:12px;min-height:440px}
+.mosaic .m{position:relative;border-radius:12px;overflow:hidden;box-shadow:var(--shadow);cursor:zoom-in;background:#08192b}
+.mosaic .m.big{grid-column:1 / 3}
+.mosaic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.mosaic .m:hover img{transform:scale(1.04)}
+@media (max-width:640px){.mosaic{min-height:360px}}
+.mv-cards{display:flex;flex-direction:column;gap:20px}
+.mv-cards .card{flex:1}
+.band-lead{max-width:780px;margin-left:auto;margin-right:auto}
+.band-sme .stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-top:4px solid var(--lime);box-shadow:none}
+.band-sme .stat .num{color:var(--lime)}
+.band-sme .stat .lbl{color:#fff}
+.band-sme .stat p{color:rgba(255,255,255,.75)}
+.band-sme .split h3{color:#fff}
+.band-sme .steps li{color:rgba(255,255,255,.85)}
+.band-sme .steps strong{color:#fff}
+.band-sme .figure{box-shadow:0 14px 30px rgba(0,0,0,.3)}

@@ -15,7 +15,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 | Archivo | Contenido |
 |---|---|
 | `index.html` | Inicio: portada animada del Titicaca (`#intro`), diapositivas (`#hero`), franja con frase y 3 tarjetas, carrusel de próximas actividades, tarjetas grandes "Sobre nosotros" y "Únete", franja oscura "Lo que hicimos este año" |
-| `nosotros.html` | Misión y visión, qué es SME, alianzas |
+| `nosotros.html` | Misión y visión (con mosaico de 3 fotos `.mosaic`), qué es SME (franja oscura `.band-sme`), alianzas (franja beige) |
 | `actividades.html` | Próximas actividades (carrusel) y "Próximamente", lo que hicimos este año (tarjetas `.exp` sobre franja con curvas del Titicaca), ponencias y talleres |
 | `beneficios.html` | Becas, prácticas y cursos del chapter; becas internacionales SME; membresías |
 | `unete.html` | Pasos para formar parte, correo y redes |
