@@ -7,7 +7,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - **Versión de caché:** las 5 páginas cargan `styles.css?v=…` y `main.js?v=…`. Al cambiar el CSS o el JS, subir ese número en las 5 páginas. Si se reemplaza una imagen manteniendo el nombre, agregarle también `?v=…` donde se usa.
 - No hay proceso de compilación: son archivos HTML, CSS y JS estáticos. Se editan directamente.
 - Idioma de todo el contenido y de los mensajes de commit: español.
-- **Commits sin atribución a Claude:** no agregar líneas `Co-Authored-By` ni `Claude-Session` (ni ninguna otra mención a Claude) en los mensajes de commit ni en pull requests. El usuario pidió que Claude no aparezca como colaborador del repositorio.
+- **Mensajes de commit:** solo el resumen del cambio. Sin líneas de coautoría (`Co-Authored-By`) ni enlaces de sesión al final, tampoco en pull requests.
 - **Autor de los commits:** `Brandon Quispe <brandonquispetapia@gmail.com>` (su cuenta principal de GitHub). Usar `git -c user.name="Brandon Quispe" -c user.email="brandonquispetapia@gmail.com" commit ...` si la configuración del entorno tiene otro autor.
 
 ## Archivos
@@ -15,14 +15,14 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 | Archivo | Contenido |
 |---|---|
 | `index.html` | Inicio: portada animada del Titicaca (`#intro`), diapositivas (`#hero`), franja con frase y 3 tarjetas, carrusel de próximas actividades, tarjetas grandes "Sobre nosotros" y "Únete", franja oscura "Lo que hicimos este año" |
-| `nosotros.html` | Misión y visión (solo tarjetas, sin fotos: el usuario no quiere repetir imágenes ahí), qué es SME (franja oscura `.band-sme`), alianzas (franja beige) |
+| `nosotros.html` | Misión y visión (solo tarjetas, sin fotos, para no repetir imágenes de otras páginas), qué es SME (franja oscura `.band-sme`), alianzas (franja beige) |
 | `actividades.html` | Próximas actividades (carrusel) y "Próximamente", lo que hicimos este año (tarjetas `.exp` sobre franja con curvas del Titicaca), ponencias y talleres |
 | `beneficios.html` | Becas, prácticas y cursos del chapter; becas internacionales SME; membresías |
 | `unete.html` | Pasos para formar parte, correo y redes |
 | `styles.css` | Todo el estilo, incluida la portada animada (al final) |
 | `main.js` | Tema claro/oscuro, menú de celular, diapositivas, carruseles, visor de imágenes y portada animada |
 | `img/` | Imágenes en WebP (máximo unos 1200 píxeles de lado, calidad 80). Excepción: las fotos de la portada (`#hero`) van en HD, 1920 píxeles de ancho, calidad 82, con sufijo `-hd` |
-| `IMAGENES PARA LA PAGINA/` | Fotos originales subidas por el usuario (JPG). La web usa las copias en WebP de `img/` |
+| `IMAGENES PARA LA PAGINA/` | Fotos originales en JPG. La web usa las copias en WebP de `img/` |
 | `favicon.ico`, `favicon-*.png`, `apple-touch-icon.png`, `icon-*.png` | Ícono con el logo del chapter |
 | `.nojekyll` | Evita que GitHub Pages procese el sitio con Jekyll |
 
@@ -37,7 +37,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - Modo claro y oscuro: por defecto sigue la configuración del dispositivo; el botón de la barra guarda la elección en `localStorage` (`sme-theme`).
 - La portada animada del Titicaca solo aparece en `index.html`, una vez por visita (`sessionStorage` `sme-intro`), y se salta si la URL trae un `#ancla`.
 - **Portada (diapositivas de `#hero`): solo paisajes mineros en HD**, con sombras oscuras en los bordes. Nada de fotos pequeñas estiradas.
-- Sin animaciones al hacer scroll ni efectos recargados: el usuario pidió una web "normal", sobria e institucional.
+- Sin animaciones al hacer scroll ni efectos recargados: la web debe ser sobria e institucional.
 
 ## Componentes principales (clases)
 
@@ -68,7 +68,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - Becas, prácticas y cursos del chapter se otorgan **solo a los 20 miembros más activos**, que van sumando puntos de forma constante al participar y colaborar, **sean o no de la junta directiva**.
 - Contacto público: correo del chapter (smestudentchapterunap@gmail.com), redes y el WhatsApp del presidente, 958 381 899 (enlace `https://wa.me/51958381899`, en el pie de las 5 páginas y en Únete). No publicar otros teléfonos ni correos personales.
 - No usar fotos de personas sacadas de internet. Fotos de paisajes o minería con licencia libre sí (Unsplash, dominio público), pero las de personas deben ser del chapter.
-- **Proyecto aún no público:** en próximas actividades hay una tarjeta "Próximamente" (`.ev-teaser`) que muestra solo la silueta del emblema (`img/proximamente.svg`, sin el nombre ni el año). No publicar el nombre, el logo completo ni detalles del proyecto en la web, en los commits ni en este archivo hasta que el usuario lo autorice. Los logos originales no se suben al repositorio.
+- **Proyecto aún no público:** en próximas actividades hay una tarjeta "Próximamente" (`.ev-teaser`) que muestra solo la silueta del emblema (`img/proximamente.svg`, sin el nombre ni el año). No publicar el nombre, el logo completo ni detalles del proyecto en la web, en los commits ni en este archivo hasta que Brandon lo autorice. Los logos originales no se suben al repositorio.
 - No afirmar datos sin fuente: se quitaron cifras no verificadas (montos de becas, "descargas ilimitadas", "fundada en 1871").
 - Cifras de "Qué es SME" (Nosotros) verificadas en smenet.org en noviembre de 2026: más de 15,000 miembros en más de 100 países (página de contacto de SME), sede en Englewood, Colorado (no Denver), organización sin fines de lucro 501(c)(3), y presencia en 7 países de Latinoamérica: Argentina, Brasil, Chile, Colombia, Ecuador, México y Perú (artículo "SME Latin America" de Mining Engineering).
 - Si se agregan unidades o cifras en textos, escribirlas completas (por ejemplo, "dólares estadounidenses al año").
