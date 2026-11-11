@@ -59,7 +59,8 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - Ya no quedan espacios para foto vacíos. El encabezado de Únete y la tarjeta "Únete al chapter" de Inicio usan `img/grupo-visita-mina.webp` (foto grupal recortada sin el marco ni el logo del original).
 - Fechas por confirmar: día exacto de ASIMET Mining Titans (noviembre de 2026) y II Encuentro de SME en Cusco.
 - Confirmado: la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) y la foto con el roll-up banner (`img/arequipa-banner.webp`) son del viaje a Arequipa.
-- Las actividades de noviembre (9, 12 y 16) vencen pronto; el I Encuentro de Egresados es el 4 y 5 de diciembre.
+- El taller del 9 de noviembre (explotación subterránea, Ing. Marco Atamari Sagua) ya se realizó: pasó de "Próximas actividades" a "Lo que hicimos este año" como tarjeta destacada (`.exp.wide`, ocupa 2 columnas para que las 8 tarjetas llenen 3 filas completas). Vencen pronto el webinar del 12 y el conversatorio del 16 de noviembre; el I Encuentro de Egresados es el 4 y 5 de diciembre.
+- Al pasar una actividad a "Lo que hicimos", mantener un total de tarjetas que cierre filas de 3 (si sobra una, destacar la más reciente con `.exp.wide`).
 
 ## Decisiones de contenido (respetarlas)
 

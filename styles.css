@@ -521,3 +521,11 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 .footer .credit a{display:inline-flex;color:#8d96a0;opacity:.85;transition:color .2s,opacity .2s}
 .footer .credit a:hover{color:var(--lime);opacity:1}
 .footer .credit svg{width:13px;height:13px}
+
+/* tarjeta destacada de "Lo que hicimos" (ocupa 2 columnas) */
+.exp.wide{grid-column:span 2}
+.exp.wide .cover{aspect-ratio:2/1}
+.exp.wide .body{padding:1.3rem 1.6rem 1.5rem}
+.exp.wide h3{font-size:1.6rem}
+.exp.wide p{font-size:1rem}
+@media (max-width:640px){.exp.wide{grid-column:auto}.exp.wide .cover{aspect-ratio:3/2}.exp.wide h3{font-size:1.35rem}}
