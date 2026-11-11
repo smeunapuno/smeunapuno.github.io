@@ -529,3 +529,9 @@ body.intro-on .aurora,body.intro-on #pcanvas{visibility:hidden}
 .exp.wide h3{font-size:1.6rem}
 .exp.wide p{font-size:1rem}
 @media (max-width:640px){.exp.wide{grid-column:auto}.exp.wide .cover{aspect-ratio:3/2}.exp.wide h3{font-size:1.35rem}}
+
+/* grillas cuya última fila incompleta queda centrada */
+.grid3.fill-center{display:flex;flex-wrap:wrap;justify-content:center;gap:24px}
+.grid3.fill-center > *{flex:0 0 calc((100% - 48px) / 3)}
+@media (max-width:980px){.grid3.fill-center > *{flex-basis:calc((100% - 24px) / 2)}}
+@media (max-width:640px){.grid3.fill-center > *{flex-basis:100%}}

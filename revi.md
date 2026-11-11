@@ -43,6 +43,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 
 - `.slide` (diapositiva de portada), `.tile` (tarjeta azul), `.band-sand` / `.band-dark` (franjas con curvas del Titicaca de fondo), `.ev` (tarjeta de actividad con flyer y fecha en `.date`), `.card.soon` (actividad sin fecha), `.feat` (tarjeta grande con foto), `.imgcard` (tarjeta con foto en franja oscura), `.banner` (encabezado de páginas interiores), `.section` / `.section.alt`, `.split`, `.figure` (imagen con pie), `.price` (membresía), `.cta` (franja azul "¿Quieres ser parte?"), `.exp` (tarjeta de "Lo que hicimos": foto de portada con `.badge`, texto y miniaturas `.thumbs` que abren el visor).
 - Cualquier elemento con `data-full="img/…"` abre esa imagen en el visor.
+- `.grid3.fill-center`: grilla de 3 columnas que centra la última fila cuando queda incompleta (se usa en las alianzas de Nosotros). Al agregar una alianza, añadir tarjeta y flyer al final de cada lista.
 - **Espacios para foto:** `<div class="ph">…<span class="ph-label">…Espacio para foto: …</span></div>`. Para poner la foto real, reemplazar todo el `div.ph` por `<img src="img/nombre.webp" alt="descripción">` dentro del mismo contenedor (`.bg`, `.img`, `.tile .img`, `.feat .bg`). En `.ph-box` reemplazar el bloque completo por una `figure.figure`.
 
 ## Tareas frecuentes
