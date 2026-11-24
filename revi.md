@@ -49,7 +49,10 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 ## Evento principal destacado (Inicio)
 
 - Zona `.featured` (`#encuentro-egresados`) entre la franja "SME UNA Puno. Formando…" y "Próximas actividades": franja azul oscuro con curvas del Titicaca, flyer principal, los dos días del evento, ponentes y botones.
-- **Agregar un ponente:** guardar su flyer en `img/` y copiar el `<button class="spk">` dentro de `.fe-spk` (nombre, título de la charla y día). Con dos o más, cambiar "Primer ponente confirmado" por "Ponentes confirmados". Las tarjetas se reparten solas en columnas.
+- **Agregar un ponente:** guardar su flyer en `img/` y copiar el `<button class="spk">` dentro de `.fe-spk` (nombre, título de la charla y día). Ya hay dos ponentes (título "Ponentes confirmados"). Las tarjetas se reparten solas en columnas.
+- La zona incluye: el botón "Ver flyer del campeonato" dentro de la tarjeta de la Jornada Deportiva (`.fe-link`) y el panel del curso pre-Simposio "Descifrando la caja negra (software)", del Ing. Yovani Achata Flores, del 26 de noviembre al 2 de diciembre (`.fe-course`, con los flyers del curso y del temario en `.fc-docs`).
+- Los teléfonos de informes que aparecen en los flyers del curso y del campeonato no se copian al texto de la web.
+- En Actividades, la tarjeta del encuentro enlaza a `index.html#encuentro-egresados` ("Ver detalles") y el curso tiene su propia tarjeta en el carrusel.
 - Mientras la zona exista, el Encuentro de Egresados no va en el carrusel de Inicio (para no repetirlo), pero sí en el de Actividades.
 - **Después del 5 de diciembre de 2026:** quitar la zona `.featured` de `index.html` y pasar el encuentro a "Lo que hicimos este año" en Actividades. La misma zona se puede reutilizar para el siguiente evento principal.
 
