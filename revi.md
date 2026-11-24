@@ -46,6 +46,13 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - `.grid3.fill-center`: grilla de 3 columnas que centra la última fila cuando queda incompleta (se usa en las alianzas de Nosotros). Al agregar una alianza, añadir tarjeta y flyer al final de cada lista.
 - **Espacios para foto:** `<div class="ph">…<span class="ph-label">…Espacio para foto: …</span></div>`. Para poner la foto real, reemplazar todo el `div.ph` por `<img src="img/nombre.webp" alt="descripción">` dentro del mismo contenedor (`.bg`, `.img`, `.tile .img`, `.feat .bg`). En `.ph-box` reemplazar el bloque completo por una `figure.figure`.
 
+## Evento principal destacado (Inicio)
+
+- Zona `.featured` (`#encuentro-egresados`) entre la franja "SME UNA Puno. Formando…" y "Próximas actividades": franja azul oscuro con curvas del Titicaca, flyer principal, los dos días del evento, ponentes y botones.
+- **Agregar un ponente:** guardar su flyer en `img/` y copiar el `<button class="spk">` dentro de `.fe-spk` (nombre, título de la charla y día). Con dos o más, cambiar "Primer ponente confirmado" por "Ponentes confirmados". Las tarjetas se reparten solas en columnas.
+- Mientras la zona exista, el Encuentro de Egresados no va en el carrusel de Inicio (para no repetirlo), pero sí en el de Actividades.
+- **Después del 5 de diciembre de 2026:** quitar la zona `.featured` de `index.html` y pasar el encuentro a "Lo que hicimos este año" en Actividades. La misma zona se puede reutilizar para el siguiente evento principal.
+
 ## Tareas frecuentes
 
 **Agregar una actividad:** guardar el flyer en `img/` como WebP; copiar un `<article class="ev">` existente en `index.html` y en `actividades.html` (en ambos, dentro de `.track`); cambiar fecha, etiqueta, título, texto e imagen. Las actividades sin flyer van como `.card.soon` en "Próximamente".
