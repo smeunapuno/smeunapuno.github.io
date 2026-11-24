@@ -70,9 +70,10 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - Ya no quedan espacios para foto vacíos. El encabezado de Únete y la tarjeta "Únete al chapter" de Inicio usan `img/grupo-visita-mina.webp` (foto grupal recortada sin el marco ni el logo del original).
 - Fechas por confirmar: día exacto de ASIMET Mining Titans (noviembre de 2026) y II Encuentro de SME en Cusco.
 - Confirmado: la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) y la foto con el roll-up banner (`img/arequipa-banner.webp`) son del viaje a Arequipa.
-- El taller del 9 de noviembre (explotación subterránea, Ing. Marco Atamari Sagua) ya se realizó: pasó de "Próximas actividades" a "Lo que hicimos este año" como tarjeta destacada (`.exp.wide`, ocupa 2 columnas para que las 8 tarjetas llenen 3 filas completas).
+- El taller del 9 de noviembre (explotación subterránea, Ing. Marco Atamari Sagua) ya se realizó: pasó de "Próximas actividades" a "Lo que hicimos este año". Hoy hay 9 tarjetas (3 filas completas), así que ninguna usa `.exp.wide`.
 - El webinar del 12 de noviembre (software minero, Ing. Yovani Achata Flores) y el conversatorio del 16 de noviembre (minería en Australia, Ing. José Fernando Cedeño) ya se realizaron: pasaron de "Próximas actividades" a "Ponencias y talleres" en `actividades.html`.
-- Próximas actividades vigentes (24 de noviembre de 2026): ASIMET Mining Titans (en curso, noviembre), curso pre-Simposio (26 de noviembre al 2 de diciembre) y I Encuentro de Egresados (4 y 5 de diciembre). El webinar de voladuras (21 de noviembre) y el conversatorio con Hellen Gamarra (23 de noviembre) ya se pasaron a "Ponencias y talleres".
+- Próximas actividades vigentes (24 de noviembre de 2026): curso pre-Simposio (26 de noviembre al 2 de diciembre) y I Encuentro de Egresados (4 y 5 de diciembre). ASIMET Mining Titans ya terminó y está en "Lo que hicimos este año". El webinar de voladuras (21 de noviembre) y el conversatorio con Hellen Gamarra (23 de noviembre) ya están en "Ponencias y talleres".
+- En Inicio, el curso pre-Simposio también va en el carrusel (además de la zona destacada) para que "Próximas actividades" no quede casi vacía.
 - El carrusel de Inicio tiene la clase `.track.few` (centra las tarjetas cuando son pocas, solo en pantallas de más de 640 píxeles). Quitarla cuando vuelva a tener 3 tarjetas o más.
 - Al pasar una actividad a "Lo que hicimos", mantener un total de tarjetas que cierre filas de 3 (si sobra una, destacar la más reciente con `.exp.wide`).
 
