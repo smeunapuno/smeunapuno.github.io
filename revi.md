@@ -49,7 +49,7 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 ## Evento principal destacado (Inicio)
 
 - Zona `.featured` (`#encuentro-egresados`) entre la franja "SME UNA Puno. Formando…" y "Próximas actividades": franja azul oscuro con curvas del Titicaca, flyer principal, los dos días del evento, ponentes y botones.
-- **Agregar un ponente:** guardar su flyer en `img/` y copiar el `<button class="spk">` dentro de `.fe-spk` (nombre, título de la charla y día). Ya hay dos ponentes (título "Ponentes confirmados"). Las tarjetas se reparten solas en columnas.
+- **Agregar un ponente:** guardar su flyer en `img/` y copiar un `<button class="spk">` dentro de `.fe-spk`, en la fila propia `.fe-speakers` (nombre, título de la charla y día). Hay tres ponentes en tres columnas; si llega un cuarto, la fila quedaría 3 + 1: pasar a 2 columnas (`grid-template-columns:repeat(2,minmax(0,1fr))` en `.fe-speakers .fe-spk`) para que queden 2 + 2.
 - La zona incluye: el botón "Ver flyer del campeonato" dentro de la tarjeta de la Jornada Deportiva (`.fe-link`) y el panel del curso pre-Simposio "Descifrando la caja negra (software)", del Ing. Yovani Achata Flores, del 26 de noviembre al 2 de diciembre (`.fe-course`, con los flyers del curso y del temario en `.fc-docs`).
 - Los teléfonos de informes que aparecen en los flyers del curso y del campeonato no se copian al texto de la web.
 - En Actividades, la tarjeta del encuentro enlaza a `index.html#encuentro-egresados` ("Ver detalles") y el curso tiene su propia tarjeta en el carrusel.
@@ -72,7 +72,8 @@ Sitio institucional del capítulo estudiantil de la Society for Mining, Metallur
 - Confirmado: la foto del auditorio del Colegio de Ingenieros (`img/cip.webp`) y la foto con el roll-up banner (`img/arequipa-banner.webp`) son del viaje a Arequipa.
 - El taller del 9 de noviembre (explotación subterránea, Ing. Marco Atamari Sagua) ya se realizó: pasó de "Próximas actividades" a "Lo que hicimos este año" como tarjeta destacada (`.exp.wide`, ocupa 2 columnas para que las 8 tarjetas llenen 3 filas completas).
 - El webinar del 12 de noviembre (software minero, Ing. Yovani Achata Flores) y el conversatorio del 16 de noviembre (minería en Australia, Ing. José Fernando Cedeño) ya se realizaron: pasaron de "Próximas actividades" a "Ponencias y talleres" en `actividades.html`.
-- Próximas actividades vigentes: webinar taller de voladuras (21 de noviembre, Ing. Fidel Ramos Rosas; agregar enlace de Google Meet o inscripción si se publica) y I Encuentro de Egresados (4 y 5 de diciembre; flyer actualizado con eje en innovación, tecnología y excelencia operacional en minería superficial y subterránea).
+- Próximas actividades vigentes (24 de noviembre de 2026): ASIMET Mining Titans (en curso, noviembre), curso pre-Simposio (26 de noviembre al 2 de diciembre) y I Encuentro de Egresados (4 y 5 de diciembre). El webinar de voladuras (21 de noviembre) y el conversatorio con Hellen Gamarra (23 de noviembre) ya se pasaron a "Ponencias y talleres".
+- El carrusel de Inicio tiene la clase `.track.few` (centra las tarjetas cuando son pocas, solo en pantallas de más de 640 píxeles). Quitarla cuando vuelva a tener 3 tarjetas o más.
 - Al pasar una actividad a "Lo que hicimos", mantener un total de tarjetas que cierre filas de 3 (si sobra una, destacar la más reciente con `.exp.wide`).
 
 ## Decisiones de contenido (respetarlas)
